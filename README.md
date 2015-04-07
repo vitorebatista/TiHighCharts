@@ -3,7 +3,6 @@
 ## Overview
 This is a widget for the [Alloy](http://projects.appcelerator.com/alloy/docs/Alloy-bootstrap/index.html) MVC framework of [Appcelerator](http://www.appcelerator.com)'s [Titanium](http://www.appcelerator.com/platform) platform.
 
-The widget provides a simple loading mask that can be easily styled and configured.
 
 ## Screenshot
 ![TiHighCharts](https://raw.github.com/vitorebatista/TiHighCharts/master/docs/screenshot.png)
@@ -44,8 +43,6 @@ The widget provides a simple loading mask that can be easily styled and configur
 	```
 3. In your `app/controllers/index.js` use it like this:
  	```
-
-
 $.pie_chart.loadChart('PIE',{
 		            chart: {
 		            	renderTo: 'container',
@@ -203,10 +200,7 @@ $.polar_spider_chart.loadChart('POLAR-SPIDER',{
 
 
 $.index.open();
-
 	```
-
-
 
 ## Changelog
 * 1.0
